@@ -121,27 +121,6 @@ public class RaceManager {
         save.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                // FileDialog save = new FileDialog(raceList, "Сохранить файл", FileDialog.SAVE);
-                // save.setFile(".csv");
-                // save.setVisible(true);
-                // String fileName = save.getDirectory() + save.getFile();
-                // if(fileName.equals("nullnull")) return;
-                // else
-                // try
-                // {
-                //     BufferedWriter writer = new BufferedWriter(new FileWriter(fileName));
-                //     for(int i=0;i<model.getRowCount();i++)
-                //     {
-                //         for(int j=0;j<model.getColumnCount();j++)
-                //         {
-                //             writer.write((String)model.getValueAt(i,j));
-                //             if(j!=model.getColumnCount()-1) writer.write(",");
-                //         }
-                //         writer.write("\n");
-                //     }
-                //     writer.close();
-                // }
-                // catch(IOException IOEx) {IOEx.printStackTrace();}
                 try {
                     DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
                     Document doc = builder.newDocument();
@@ -179,35 +158,7 @@ public class RaceManager {
         open.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                // FileDialog load = new FileDialog(raceList, "Открыть файл", FileDialog.LOAD);
-                // load.setFile(".csv");
-                // load.setVisible(true);
-                // String fileName = load.getDirectory() + load.getFile();
-                // if(fileName == null) return;
-                // try
-                // {
-                //     BufferedReader reader = new BufferedReader(new FileReader(fileName));
-                //     int rows = model.getRowCount();
-                //     for(int i=0;i<rows;i++) model.removeRow(0);
-                //     String line;
-                //     do
-                //     {
-                //         line = reader.readLine();
-                //         if(line != null)
-                //         {
-                //             model.addRow(line.split(","));
-                //             teams.add(line.split(",")[0]);
-                //             drivers.add(line.split(",")[1]);
-                //             tracks.add(line.split(",")[2]);
-                //         }
-                //     } while(line != null);
-                //     tmpStrings = new String[teams.size()+1];
-                //     tmpStrings[0]="Команда";if(teams.size() > 0) System.arraycopy(teams.toArray(new String[0]), 0, tmpStrings, 1, teams.size()-1);
-                //     team = new JComboBox(tmpStrings); 
-                //     reader.close();
-                // }
-                // catch(FileNotFoundException FNFEx) {FNFEx.printStackTrace();}
-                // catch(IOException IOEx) {IOEx.printStackTrace();}
+                
                 FileDialog load = new FileDialog(raceList, "Открыть файл", FileDialog.LOAD);
                 load.setFile(".xml");
                 load.setVisible(true);
@@ -234,6 +185,17 @@ public class RaceManager {
                         tracks.add(tmpTrack);
                         model.addRow(new String[]{tmpTeam, tmpDriver, tmpTrack, tmpDate, tmpPlace, tmpPoints});
                     }
+                    tmpStrings = new String[teams.size()+1];
+                    tmpStrings[0]="Команда";if(teams.size() > 0) System.arraycopy(teams.toArray(new String[0]), 0, tmpStrings, 1, teams.size()-1);
+                    filterPanel.remove(team);
+                    filterPanel.remove(driver);
+                    filterPanel.remove(filter);
+                    team = new JComboBox(tmpStrings); 
+                    filterPanel.add(team);
+                    filterPanel.add(driver);
+                    filterPanel.add(filter);
+                    filterPanel.revalidate();
+                    filterPanel.repaint();
                 } 
                     catch (ParserConfigurationException pce) {	pce.printStackTrace(); } 
                     catch (SAXException saxe) { saxe.printStackTrace(); } 
