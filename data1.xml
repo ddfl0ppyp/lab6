@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<racelist>
+	<race team="Red Bull Racing" driver="Макс Ферстаппен" circuit="Спа-Франкоршам" date="28-08-2022 15:00" place="1" points="25"/>
+	<race team="Mercedes AMG Petronas" driver="Льюис Хэмилтон" circuit="Сильверстоун" date="03-07-2022 15:00" place="2" points="18"/>
+	<race team="Ferrari" driver="Шарль Леклер" circuit="Монако" date="29-05-2022 15:00" place="3" points="15"/>
+	<race team="McLaren" driver="Ландо Норрис" circuit="Монца" date="11-09-2022 15:00" place="4" points="12"/>
+	<race team="AlphaTauri" driver="Пьер Гасли" circuit="Будапешт" date="01-08-2022 15:00" place="5" points="10"/>
+	<race team="Aston Martin" driver="Себастьян Феттель" circuit="Сочи" date="26-09-2022 15:00" place="6" points="8"/>
+	<race team="Alpine" driver="Фернандо Алонсо" circuit="Барселона" date="22-05-2022 15:00" place="7" points="6"/>
+	<race team="Williams" driver="Джордж Рассел" circuit="Зандворт" date="04-09-2022 15:00" place="8" points="4"/>
+	<race team="Haas" driver="Мик Шумахер" circuit="Бахрейн" date="12-03-2022 15:00" place="9" points="2"/>
+	<race team="Alfa Romeo" driver="Валттери Боттас" circuit="Имола" date="24-04-2022 15:00" place="10" points="1"/>
+	<race team="Red Bull Racing" driver="Серхио Перес" circuit="Мехико" date="30-10-2022 15:00" place="1" points="25"/>
+	<race team="Mercedes AMG Petronas" driver="Джордж Рассел" circuit="Интерлагос" date="13-11-2022 15:00" place="2" points="18"/>
+	<race team="Ferrari" driver="Карлос Сайнс" circuit="Сингапур" date="02-10-2022 15:00" place="3" points="15"/>
+	<race team="McLaren" driver="Даниэль Риккардо" circuit="Шанхай" date="10-04-2022 15:00" place="4" points="12"/>
+	<race team="AlphaTauri" driver="Юки Цунода" circuit="Сузука" date="09-10-2022 15:00" place="5" points="10"/>
+	<race team="Aston Martin" driver="Лэнс Стролл" circuit="Баку" date="12-06-2022 15:00" place="6" points="8"/>
+	<race team="Alpine" driver="Эстебан Окон" circuit="Монреаль" date="19-06-2022 15:00" place="7" points="6"/>
+	<race team="Williams" driver="Николас Латифи" circuit="Абу-Даби" date="20-11-2022 15:00" place="8" points="4"/>
+	<race team="Haas" driver="Кевин Магнуссен" circuit="Остин" date="23-10-2022 15:00" place="9" points="2"/>
+	<race team="Alfa Romeo" driver="Гуаньюй Чжоу" circuit="Мельбурн" date="10-04-2022 15:00" place="10" points="1"/>
+	<race team="McLaren" driver="Льюис Хэмилтон" circuit="Остин" date="08-07-2012 15:00" place="8" points="4"/>
+</racelist>

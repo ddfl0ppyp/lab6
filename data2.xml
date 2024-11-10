@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<racelist>
+	<race circuit="Спа-Франкоршам" date="28-08-2022 15:00" driver="Макс Ферстаппен" place="1" points="25" team="Red Bull Racing"/>
+	<race circuit="Барселона" date="22-05-2022 15:00" driver="Фернандо Алонсо" place="7" points="6" team="Alpine"/>
+	<race circuit="Имола" date="24-04-2022 15:00" driver="Валттери Боттас" place="10" points="1" team="Alfa Romeo"/>
+	<race circuit="Сузука" date="09-10-2022 15:00" driver="Юки Цунода" place="5" points="10" team="AlphaTauri"/>
+	<race circuit="Остин" date="23-10-2022 15:00" driver="Кевин Магнуссен" place="9" points="2" team="Haas"/>
+	<race circuit="Остин" date="08-07-2012 15:00" driver="Льюис Хэмилтон" place="8" points="4" team="McLaren"/>
+</racelist>
